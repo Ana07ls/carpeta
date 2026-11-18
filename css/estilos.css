@@ -1,0 +1,120 @@
+    
+.nav-underline {
+    padding: 10px 35px; /*espacio inferior de 10px arriba y abajo y 35px a los lados*/
+    gap: 35px; /*separación de 35px entre cada elemento*/
+    font-family: Arial, sans-serif;
+    width: 100%; /*hace que el menú ocupe todo el ancho*/
+    box-sizing: border-box; /*relleno y el borde*/
+    border-bottom: none; /*elimina el borde inferior*/
+}
+
+.nav-underline .nav-link {
+    color: #2c3136;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    border-radius: 8px 8px 0 0;
+}
+
+.nav-underline .nav-link:hover {
+   color: #ffffff;
+background-color: #086288;
+}
+
+.nav-underline .nav-link.active {
+    color: #086288;
+    font-weight: bold;
+    border-bottom: 2px solid #194c87;
+    background-color: transparent;
+}
+
+.nav-underline .nav-link.disabled {
+    color: #adb5bd;
+}
+
+
+
+
+
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-underline {
+    display: flex; /*acomoda los elementos en una misma fila, uno al lado del otro*/
+    align-items: center;
+    padding: 35px;
+    gap: 40px; /*deja 40 píxeles de separación entre los elementos*/
+    margin-top: 5px;
+    border-bottom: none;
+    width: auto;
+    
+}
+
+.logo {
+    width: 500px; /*ancho*/
+    height: 250px; /*altura*/
+    object-fit: contain; /*hace que la imagen se ajuste sin deformarse*/
+}
+
+.nombre {
+    font-size: 70px;
+    color: #086288;
+    font-weight: bold;
+    white-space: nowrap;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+
+}
+
+.marca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/*Estilo de tarjeta*/
+.pedido-tarjeta {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.pedido-nombre {
+    font-size: 22px;
+    font-weight: bold;
+    color: #086288;
+    margin-bottom: 10px;
+}
+
+.pedido-acciones {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn-editar {
+    background-color: #086288;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+}
+
